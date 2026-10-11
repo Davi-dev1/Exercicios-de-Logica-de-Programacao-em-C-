@@ -29,7 +29,7 @@ void multiplicacao(){
 	printf("\nDigite o segundo valor : ");
 	scanf("%i",&b);
 	 a*=b;
-	printf("\nO valor da multiplicaÁ„o eh %i\n",a);
+	printf("\nO valor da multiplica√ß√£o eh %i\n",a);
 }
 
 
@@ -57,11 +57,11 @@ int opcao;
 do{
 
 printf("Calculadora :");
-printf("\n\nEscolha a opÁ„o abaixo");
+printf("\n\nEscolha a op√ß√£o abaixo");
 printf("\n\n1 - Soma");
-printf("\n\n2 - SubtraÁ„o");
-printf("\n\n3 - MultiplicaÁ„o");
-printf("\n\n4 - Divis„o");
+printf("\n\n2 - Subtra√ß√£o");
+printf("\n\n3 - Multiplica√ß√£o");
+printf("\n\n4 - Divis√£o");
 printf("\n\n5 - Sair\n");
 scanf("%i",&opcao);
 
@@ -84,7 +84,7 @@ case 5:
 printf("\nFinalizando o Sistema......");
 break;
 default:
-printf("\nOpÁ„o Inv·lida");
+printf("\nOp√ß√£o Inv√°lida");
 }
 }while(opcao != 5);
 }
