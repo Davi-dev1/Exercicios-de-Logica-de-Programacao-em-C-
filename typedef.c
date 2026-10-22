@@ -11,7 +11,7 @@ typedef struct{
 
 int main(){
 	
-	 Pessoa pessoa[4]; // vetor de 4 posições
+	 Pessoa pessoa[4]; // vetor de 4 posiÃ§Ãµes
 	for(int i=0;i<4;i++){
 	printf("---------- Pessoa %i ----------- \n",i+1);
 	printf("\n---------Cadastro de Pessoa ----------\n");
